@@ -14,6 +14,9 @@ http {
 
   server {
     listen ${GATEWAY_PORT};
+    # Railway private networking is IPv6-only, so a sibling service reaching this
+    # gateway over RAILWAY_PRIVATE_DOMAIN never arrives on the IPv4 socket.
+    listen [::]:${GATEWAY_PORT};
 
     # Unauthenticated readiness probe: proxies an authenticated call to
     # Lavalink's own /version, so a 200 here means the engine answered.
