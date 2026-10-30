@@ -1,5 +1,9 @@
 # discord-music-railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/discord-music-bot-or-just-updated-lavali?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
+**Deploy on Railway:** [Discord Music Bot template](https://railway.com/deploy/discord-music-bot-or-just-updated-lavali?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 Wrapper images for a Railway template that deploys a Discord music bot together with
 its own Lavalink audio server.
 
